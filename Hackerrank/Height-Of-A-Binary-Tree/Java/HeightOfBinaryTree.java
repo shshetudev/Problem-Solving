@@ -14,7 +14,7 @@ class NodeOfTree {
     }
 }
 
-public class HeightOfBinaryTree_Intermediate {
+public class HeightOfBinaryTree {
     public static void main(String[] args) {
         try(Scanner input = new Scanner(System.in)){
             int dataValues = input.nextInt();
