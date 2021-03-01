@@ -44,7 +44,7 @@ void quickSort(int arr[], int low, int high) {
 } 
 
 // Function to print an array
-void printArray(int arr[], int size) {
+void printReversedArray(int arr[], int size) {
     int i;
     for (i = 0; i < size; i++)
         cout << arr[i] << " ";
@@ -59,6 +59,6 @@ int main() {
     int n = sizeof(arr)/ sizeof(arr[0]);
     quickSort(arr,0,n-1);
     cout << "Sorted array: \n";
-    printArray(arr,n);
+    printReversedArray(arr,n);
     return 0;
 }

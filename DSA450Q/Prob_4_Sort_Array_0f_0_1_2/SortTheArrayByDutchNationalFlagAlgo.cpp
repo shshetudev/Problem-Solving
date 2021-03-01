@@ -25,7 +25,7 @@ void sort012(int arr[], int arrSize) {
     }
 }
 
-void printArray(int arr[], int arrSize) {
+void printReversedArray(int arr[], int arrSize) {
     for (int i = 0; i < arrSize; i++)
         cout << arr[i] << " ";
     
@@ -37,6 +37,6 @@ int main() {
         int n = sizeof(arr) / sizeof(arr[0]);
         sort012(arr,n);
         cout << "Array after segregation ";
-        printArray(arr,n);
+        printReversedArray(arr,n);
         return 0;
     }
