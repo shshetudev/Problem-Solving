@@ -5,25 +5,28 @@ import java.util.Scanner;
 public class ArrayManipulation {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
-        int n = in.nextInt(); // column
-        int m = in.nextInt(); // row
-        int inputArr[][] = new int[m][n];
-        for(int i=0;i<m;i++)
-            for(int j=0;j<n;j++)
-                inputArr[i][j] = in.nextInt();
-
-        int arr[][] = new int[m+1][n];
-        for(int i=0;i<m+1;i++)
-            for(int j=0;j<n;j++) {
-                if(i==0) {
-                    arr[i][j] = 0;
-                } else {
-                    int a = arr[];
-                    int b = in.nextInt();
-                    int k = in.nextInt();
-                    arr[i][j]
-                }
-            }
+        int n = in.nextInt();
+        int m = in.nextInt();
+        long[] arr = new long[n];
+        int lower,upper,sum;
+        for(int i=0;i<n;i++)
+            arr[i] = 0;
+        for(int j=0;j<m;j++) {
+            lower = in.nextInt();
+            upper = in.nextInt();
+            sum = in.nextInt();
+            arr[lower-1] += sum;
+        if(upper < n)
+            arr[upper] -= sum;
+        }
+        long max = 0;
+        long temp = 0;
+        for(int i=0;i<n;i++) {
+            temp += arr[i];
+        if(temp > max)
+            max = temp;
+        }
+        System.out.println(max);
         in.close();
     }
 }
