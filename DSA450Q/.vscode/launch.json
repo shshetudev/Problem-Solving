@@ -5,6 +5,27 @@
     "version": "0.2.0",
     "configurations": [
         {
+            "type": "java",
+            "name": "Launch MinJumps",
+            "request": "launch",
+            "mainClass": "MinJumps",
+            "projectName": "DSA450Q_5f047356"
+        },
+        {
+            "type": "java",
+            "name": "Launch Demo",
+            "request": "launch",
+            "mainClass": "Demo",
+            "projectName": "DSA450Q_5f047356"
+        },
+        {
+            "type": "java",
+            "name": "Launch MinimumJumps",
+            "request": "launch",
+            "mainClass": "MinimumJumps",
+            "projectName": "DSA450Q_5f047356"
+        },
+        {
             "name": "g++ - Build and debug active file",
             "type": "cppdbg",
             "request": "launch",
