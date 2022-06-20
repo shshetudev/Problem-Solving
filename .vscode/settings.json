@@ -1,5 +1,9 @@
 {
     "files.associations": {
         "iostream": "cpp"
-    }
+    },
+    "java.project.sourcePaths": [
+        "LeetCode/data_structure/p217_contains_duplicate/java",
+        "topics/divide-and-conquer-algorithms/java"
+    ]
 }
