@@ -91,3 +91,8 @@
         else                               // x is on the right side
             return binarySearch(arr, x, low, mid - 1)
     ```
+  ## Merge Sort Algorithm
+    - Here a problem is divided into multiple sub-problems.
+    - Each sub-problem is solved individually.
+    - Finally sub-problems are combined to form the final solution.
+    
