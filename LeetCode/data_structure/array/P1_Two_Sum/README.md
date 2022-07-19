@@ -34,5 +34,12 @@
 
 
 ## Discussion
+- We can solve this problem in this ways:
+  - using nested for loop -> T.C: O(n^2), S.C: O(1)
+  - using hashmap/hashtable -> T.C.: O(n), S.C: O(1)
+
 
 ## Solution
+### Using Nested for loop (Naive Solution)
+- [Solution in java](../P1_Two_Sum/java/data_structure/array/P1_Two_Sum/java/NaiveSolution.java)
+- [Solution in python](../P1_Two_Sum/python/NaiveSolution.py)
